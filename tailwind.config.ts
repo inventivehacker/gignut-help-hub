@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        fira: ['Fira Sans', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
