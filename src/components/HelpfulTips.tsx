@@ -10,9 +10,8 @@ const tips = [
 
 export const HelpfulTips = () => {
   return (
-    <section className="py-12 px-4 bg-secondary/30">
-      <div className="max-w-4xl mx-auto">
-        <Card className="p-8">
+    <div>
+      <Card className="p-8">
           <div className="flex items-start gap-4">
             <div className="bg-accent/10 p-3 rounded-lg">
               <Lightbulb className="h-6 w-6 text-accent" />
@@ -30,7 +29,6 @@ export const HelpfulTips = () => {
             </div>
           </div>
         </Card>
-      </div>
-    </section>
+    </div>
   );
 };

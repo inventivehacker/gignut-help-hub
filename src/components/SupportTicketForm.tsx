@@ -32,11 +32,10 @@ export const SupportTicketForm = () => {
   };
 
   return (
-    <section className="py-12 px-4 bg-secondary/30">
-      <div className="max-w-2xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-8">Raise a Support Ticket</h2>
-        <Card className="p-8">
-          <form onSubmit={handleSubmit} className="space-y-6">
+    <div>
+      <h2 className="text-3xl font-bold mb-8">Raise a Support Ticket</h2>
+      <Card className="p-8">
+        <form onSubmit={handleSubmit} className="space-y-6">
             <div className="space-y-2">
               <Label htmlFor="name">Full Name</Label>
               <Input
@@ -104,7 +103,6 @@ export const SupportTicketForm = () => {
             </Button>
           </form>
         </Card>
-      </div>
-    </section>
+    </div>
   );
 };

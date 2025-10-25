@@ -3,9 +3,8 @@ import { AlertCircle, Mail, MapPin } from "lucide-react";
 
 export const EscalationContact = () => {
   return (
-    <section className="py-12 px-4">
-      <div className="max-w-4xl mx-auto">
-        <Card className="p-8 border-l-4 border-l-accent">
+    <div>
+      <Card className="p-8 border-l-4 border-l-accent">
           <div className="flex items-start gap-4">
             <div className="bg-accent/10 p-3 rounded-lg">
               <AlertCircle className="h-6 w-6 text-accent" />
@@ -32,7 +31,6 @@ export const EscalationContact = () => {
             </div>
           </div>
         </Card>
-      </div>
-    </section>
+    </div>
   );
 };
