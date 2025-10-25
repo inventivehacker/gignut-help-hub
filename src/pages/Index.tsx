@@ -18,14 +18,14 @@ const Index = () => {
       {/* Combined section with form on left and info boxes on right */}
       <section className="py-12 px-4 bg-secondary/30">
         <div className="max-w-7xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-8 items-start">
+          <div className="grid lg:grid-cols-2 gap-8 items-stretch">
             {/* Left column - Support Ticket Form */}
             <div>
               <SupportTicketForm />
             </div>
             
             {/* Right column - Escalation and Tips */}
-            <div className="space-y-8">
+            <div className="flex flex-col gap-8">
               <EscalationContact />
               <HelpfulTips />
             </div>
